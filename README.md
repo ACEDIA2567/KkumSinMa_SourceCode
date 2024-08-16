@@ -1,5 +1,9 @@
 # KkumSinMa_SourceCode
 
+<details>
+<summary>소스 코드 트리 구조</summary>
+<div markdown="1">
+
 📦Scripts    
  ┣ 📂0_Util ▶ 유틸     
  ┃ ┣ 📜AudioClips.cs    
@@ -170,3 +174,8 @@
  ┃ ┃ ┣ 📜UI_Start.cs    
  ┃ ┃ ┣ 📜UI_Tutorial.cs    
  ┗ ┗ ┗ 📜ParallaxBackground.cs    
+
+</div>
+</details>
+
+
