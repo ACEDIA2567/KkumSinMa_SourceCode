@@ -53,19 +53,19 @@
  ┃ ┣ 📜TutorialUseSoul.cs    
  ┃ ┗ 📜UI_Player_Tutorial.cs    
  ┣ 📂4_MaintananceScene ▶ 정비씬    
- ┃ ┣ 📂Items ▶ 아이템 관련
+ ┃ ┣ 📂Items ▶ 아이템 관련    
  ┃ ┃ ┣ 📜Item.cs    
  ┃ ┃ ┣ 📜ItemSkills.cs    
  ┃ ┃ ┗ 📜PotionSkill.cs    
- ┃ ┣ 📂NPC ▶ NPC 관련 
+ ┃ ┣ 📂NPC ▶ NPC 관련     
  ┃ ┃ ┣ 📜CharacterNPC.cs    
  ┃ ┃ ┣ 📜ForgeNPC.cs    
  ┃ ┃ ┣ 📜MapNPC.cs    
  ┃ ┃ ┣ 📜NPC.cs    
  ┃ ┃ ┣ 📜PotalExit.cs    
  ┃ ┃ ┗ 📜StoreNPC.cs    
- ┃ ┣ 📂Player > 플레이어 관련
- ┃ ┃ ┣ 📂Behaviours  ▶ 플레이어 행동    
+ ┃ ┣ 📂Player ▶ 플레이어 관련    
+ ┃ ┃ ┣ 📂Behaviours  ▶ 플레이어 행동        
  ┃ ┃ ┃ ┣ 📂Input ▶ 플레이어 입력 관련    
  ┃ ┃ ┃ ┃ ┣ 📜InputAttack.cs    
  ┃ ┃ ┃ ┃ ┣ 📜InputBase.cs    
