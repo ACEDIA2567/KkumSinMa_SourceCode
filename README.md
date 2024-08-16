@@ -1,7 +1,7 @@
 # KkumSinMa_SourceCode
 
 📦Scripts    
- ┣ 📂0_Util ▶ 유틸 
+ ┣ 📂0_Util ▶ 유틸     
  ┃ ┣ 📜AudioClips.cs    
  ┃ ┣ 📜Define.cs    
  ┃ ┣ 📜Extension.cs    
@@ -9,7 +9,7 @@
  ┃ ┣ 📜SceneChanger.cs    
  ┃ ┣ 📜UIBase.cs    
  ┃ ┗ 📜Util.cs    
- ┣ 📂1_Managers ▶ 게임 관리
+ ┣ 📂1_Managers ▶ 게임 관리    
  ┃ ┣ 📜CameraManager.cs    
  ┃ ┣ 📜DataManager.cs    
  ┃ ┣ 📜GameManager.cs    
@@ -26,13 +26,13 @@
  ┃ ┣ 📜SoundManager.cs    
  ┃ ┣ 📜UIInputManager.cs    
  ┃ ┗ 📜UIManager.cs    
- ┣ 📂2_Scene ▶ 씬의 실행 세팅
+ ┣ 📂2_Scene ▶ 씬의 실행 세팅    
  ┃ ┣ 📜BaseScene.cs    
  ┃ ┣ 📜Battle.cs    
  ┃ ┣ 📜Maintenance.cs    
  ┃ ┣ 📜StartScene.cs    
  ┃ ┗ 📜Tutorial.cs    
- ┣ 📂3_Tutorial ▶ 튜토리얼 관련
+ ┣ 📂3_Tutorial ▶ 튜토리얼 관련    
  ┃ ┣ 📜DialogSystem.cs    
  ┃ ┣ 📜TutorialBase.cs    
  ┃ ┣ 📜TutorialCamChange.cs    
@@ -49,7 +49,7 @@
  ┃ ┣ 📜TutorialTrigger.cs    
  ┃ ┣ 📜TutorialUseSoul.cs    
  ┃ ┗ 📜UI_Player_Tutorial.cs    
- ┣ 📂4_MaintananceScene ▶ 정비씬
+ ┣ 📂4_MaintananceScene ▶ 정비씬    
  ┃ ┣ 📂Items ▶ 아이템 관련
  ┃ ┃ ┣ 📜Item.cs    
  ┃ ┃ ┣ 📜ItemSkills.cs    
@@ -62,8 +62,8 @@
  ┃ ┃ ┣ 📜PotalExit.cs    
  ┃ ┃ ┗ 📜StoreNPC.cs    
  ┃ ┣ 📂Player > 플레이어 관련
- ┃ ┃ ┣ 📂Behaviours  ▶ 플레이어 행동
- ┃ ┃ ┃ ┣ 📂Input ▶ 플레이어 입력 관련
+ ┃ ┃ ┣ 📂Behaviours  ▶ 플레이어 행동    
+ ┃ ┃ ┃ ┣ 📂Input ▶ 플레이어 입력 관련    
  ┃ ┃ ┃ ┃ ┣ 📜InputAttack.cs    
  ┃ ┃ ┃ ┃ ┣ 📜InputBase.cs    
  ┃ ┃ ┃ ┃ ┣ 📜InputInteract.cs    
@@ -71,9 +71,9 @@
  ┃ ┃ ┃ ┃ ┣ 📜InputPotion.cs    
  ┃ ┃ ┃ ┃ ┣ 📜InputSkill.cs    
  ┃ ┃ ┃ ┃ ┗ 📜PlayerInputHandler.cs    
- ┃ ┃ ┃ ┣ 📂StageSkill ▶ 플레이어 스테이지 스킬
+ ┃ ┃ ┃ ┣ 📂StageSkill ▶ 플레이어 스테이지 스킬    
  ┃ ┃ ┃ ┃ ┗ 📜StageSkill.cs    
- ┃ ┃ ┃ ┣ 📂State ▶ 플레이어의 상태머신 
+ ┃ ┃ ┃ ┣ 📂State ▶ 플레이어의 상태머신     
  ┃ ┃ ┃ ┃ ┣ 📜PlayerStateHandler.cs    
  ┃ ┃ ┃ ┃ ┣ 📜StateAttack.cs    
  ┃ ┃ ┃ ┃ ┣ 📜StateBase.cs    
@@ -97,35 +97,35 @@
  ┃ ┃ ┣ 📜PlayerInventory.cs    
  ┃ ┃ ┗ 📜PlayerStatHandler.cs    
  ┣ 📂5_BattleScene    
- ┃ ┣ 📂Enemy ▶ 적 관련
- ┃ ┃ ┣ 📂Boss ▶ 적(보스) 정보
+ ┃ ┣ 📂Enemy ▶ 적 관련    
+ ┃ ┃ ┣ 📂Boss ▶ 적(보스) 정보    
  ┃ ┃ ┃ ┣ 📜BossAnimator.cs    
  ┃ ┃ ┃ ┣ 📜BossEnemy.cs    
  ┃ ┃ ┃ ┣ 📜BossMovement.cs    
  ┃ ┃ ┃ ┗ 📜BossSkill.cs    
- ┃ ┃ ┣ 📂Citizen ▶ 적(시민) 정보 
+ ┃ ┃ ┣ 📂Citizen ▶ 적(시민) 정보     
  ┃ ┃ ┃ ┣ 📜CitizenAnimator.cs    
  ┃ ┃ ┃ ┣ 📜CitizenEnemy.cs    
  ┃ ┃ ┃ ┗ 📜CitizenMovement.cs    
- ┃ ┃ ┣ 📂EnemyAttack ▶ 적의 공격 
+ ┃ ┃ ┣ 📂EnemyAttack ▶ 적의 공격     
  ┃ ┃ ┃ ┣ 📜Explosion.cs    
  ┃ ┃ ┃ ┣ 📜LineAtoB.cs    
  ┃ ┃ ┃ ┣ 📜MeleeAttack.cs    
  ┃ ┃ ┃ ┣ 📜ProjectileController.cs    
  ┃ ┃ ┃ ┗ 📜ProjectilePool.cs    
- ┃ ┃ ┣ 📂Normal ▶ 적(일반) 정보
+ ┃ ┃ ┣ 📂Normal ▶ 적(일반) 정보    
  ┃ ┃ ┃ ┣ 📜MeleeEnemy.cs    
  ┃ ┃ ┃ ┣ 📜NormalEnemy.cs    
  ┃ ┃ ┃ ┣ 📜NormalEnemyMovement.cs    
  ┃ ┃ ┃ ┗ 📜RangedEnemy.cs    
- ┃ ┃ ┣ 📂Spawner ▶ 적의 스폰  
+ ┃ ┃ ┣ 📂Spawner ▶ 적의 스폰      
  ┃ ┃ ┃ ┣ 📜BossSpawner.cs    
  ┃ ┃ ┃ ┗ 📜EnemySpawner.cs    
  ┃ ┃ ┣ 📜Enemy.cs    
  ┃ ┃ ┣ 📜EnemyAnimator.cs    
  ┃ ┃ ┣ 📜EnemyStatus.cs    
  ┃ ┃ ┗ 📜Soul.cs    
- ┃ ┣ 📂Map ▶ 전투 맵 관련
+ ┃ ┣ 📂Map ▶ 전투 맵 관련    
  ┃ ┃ ┣ 📜BossMap.cs    
  ┃ ┃ ┣ 📜CitizenPortal.cs    
  ┃ ┃ ┣ 📜EntrancePortal.cs    
@@ -134,18 +134,18 @@
  ┃ ┃ ┣ 📜NavMeshBuild.cs    
  ┃ ┃ ┗ 📜NormalMapManager.cs    
  ┃ ┗ 📜DMGtxt.cs    
- ┣ 📂UI ▶ UI 관련
- ┃ ┣ 📂Effect ▶ UI 효과
+ ┣ 📂UI ▶ UI 관련    
+ ┃ ┣ 📂Effect ▶ UI 효과    
  ┃ ┃ ┣ 📜ArrowBlink.cs    
  ┃ ┃ ┣ 📜EyeBlink.cs    
  ┃ ┃ ┣ 📜TypingEffect.cs    
  ┃ ┃ ┣ 📜UpdateColorAlpha.cs    
  ┃ ┃ ┗ 📜ZoomToUI.cs    
- ┃ ┣ 📂Item ▶ UI 아이템
+ ┃ ┣ 📂Item ▶ UI 아이템    
  ┃ ┃ ┣ 📜UI_CharacterForce_Item.cs    
  ┃ ┃ ┣ 📜UI_EquipmentForce_item.cs    
  ┃ ┃ ┗ 📜UI_Store_Item.cs    
- ┃ ┣ 📂Popup ▶ UI 활성화
+ ┃ ┣ 📂Popup ▶ UI 활성화    
  ┃ ┃ ┣ 📜UI_BackToMain.cs    
  ┃ ┃ ┣ 📜UI_CharacterForce.cs    
  ┃ ┃ ┣ 📜UI_CharacterInfo.cs    
@@ -160,7 +160,7 @@
  ┃ ┃ ┣ 📜UI_StageClear.cs    
  ┃ ┃ ┣ 📜UI_Store.cs    
  ┃ ┃ ┗ 📜UI_StoreBuy.cs    
- ┃ ┣ 📂Scene ▶ 씬마다 UI 설정
+ ┃ ┣ 📂Scene ▶ 씬마다 UI 설정    
  ┃ ┃ ┣ 📜UI_Battle.cs    
  ┃ ┃ ┣ 📜UI_Boss.cs    
  ┃ ┃ ┣ 📜UI_HUD.cs    
