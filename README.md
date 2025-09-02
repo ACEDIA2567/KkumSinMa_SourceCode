@@ -1,6 +1,10 @@
 # KkumSinMa_SourceCode
 
 ## 꿈신마 Git_Hub : https://github.com/dudgus818/SpartaFinal
+## 소스코드: [다운로드](https://github.com/user-attachments/files/22098340/Scripts.zip)
+## 소스코드(제가 작성한 코드만 모아둔 파일입니다.):[다운로드](https://github.com/user-attachments/files/22098319/KkumSinMa.zip)
+
+<hr>
 
 ## 소스 코드 트리
 📦Scripts    
